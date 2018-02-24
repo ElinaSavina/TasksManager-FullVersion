@@ -1,0 +1,31 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57333",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "JwtOptions:Key": "so many things to do, how to manage everything?",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "TasksManager": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:57333/swagger",
+      "environmentVariables": {
+        "JwtOptions:Key": "so many things to do, how to manage everything?",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:57333"
+    }
+  }
+}
